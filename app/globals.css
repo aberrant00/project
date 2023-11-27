@@ -84,24 +84,56 @@ div.controls {
 
 div.income {
   display: flex;
-  background-color: #5272b0;
-  padding: 15px;
+  background-color: rgba(82, 114, 176, 0.5);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 15px;
+  padding-left: 15px;
+  align-items: flex-end;
+  box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.3);
+  justify-content: space-between;
   border-radius: 15px;
-  gap: 5px;
+  gap: 15px;
   flex-direction: column;
 }
 
 div.expense {
   display: flex;
-  background-color: #b05252;
+  background-color: rgba(176, 82, 82, 0.5);
+  align-items: flex-end;
   border-radius: 15px;
-  padding: 15px;
-  gap: 5px;
+  box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.3);
+  justify-content: space-between;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 15px;
+  padding-left: 15px;
+  gap: 15px;
   flex-direction: column;
 }
 
 p.subtotal {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
   font-family: COmfortaa;
   font-size: 20px;
   font-weight: bold;
+  margin: 0px;
+  padding: 0px;
+}
+
+p.dollar {
+  font-family: Comfortaa;
+  font-size: 32px;
+  color: #295542;
+  margin: 0px;
+  padding: 0px;
+}
+
+div.total {
+  justify-content: space-between;
+  display: flex;
+  gap: 8px;
+  align-items: flex-start;
 }
