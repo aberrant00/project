@@ -1,7 +1,19 @@
-
+import Head from 'next/head';
 export default function Home() {
   return (
-  
+<>
+<head>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Inter:wght@100&display=swap" rel="stylesheet" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap" rel="stylesheet" />
+</head>
+
+
+
   <div className="panel">
  <div className="controls">
 <div className="numbers">
@@ -20,5 +32,6 @@ export default function Home() {
   </div>
   </div>
 
+</>
   );
 }
