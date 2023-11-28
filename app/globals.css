@@ -84,6 +84,7 @@ div.controls {
 
 div.income {
   display: flex;
+  flex-wrap: nowrap;
   background-color: rgba(82, 114, 176, 0.5);
   padding-top: 10px;
   padding-bottom: 10px;
@@ -99,6 +100,7 @@ div.income {
 
 div.expense {
   display: flex;
+  flex-wrap: nowrap;
   background-color: rgba(176, 82, 82, 0.5);
   align-items: flex-end;
   border-radius: 15px;
