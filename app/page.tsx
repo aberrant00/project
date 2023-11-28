@@ -2,7 +2,28 @@ export default function Home() {
   return (
     <div className="panel">
       <div className="leftside">
-        <div className="tablebody"></div>
+        <div className="tablebody">
+          <table>
+            <td className="category">
+              <div className="icontext">
+                <img className="icon" src="food.png" />
+                Food & Drink
+              </div>
+            </td>
+            <td className="description">McDonald's</td>
+            <td className="date">10/03/2023</td>
+            <td className="ammount">-150,00 $</td>
+            <td className="balance">3.1456,66 $</td>
+            <div className="teditdlt">
+              <td className="tedit">
+                <img className="icon" src="edit.png" />
+              </td>
+              <td className="tdelete">
+                <img className="icon" src="delete.png" />
+              </td>
+            </div>
+          </table>
+        </div>
         <div className="tablehead">
           <p className="category">Category</p>
           <p className="description">Description</p>

@@ -1,5 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Inter:wght@100&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Inter:wght@100;700&display=swap");
 body {
   display: flex;
   background-color: #070c10;
@@ -220,7 +219,6 @@ div.tablebody {
     rgba(0, 0, 0, 1) 0%,
     rgba(27, 27, 27, 1) 100%
   );
-  flex: 1 1;
   border-radius: 15px;
 }
 
@@ -232,10 +230,12 @@ div.leftside {
 
 div.tablehead {
   display: flex;
+  flex: 0 1;
+  justify-content: space-between;
   order: -1;
   gap: 50px;
   padding-left: 20px;
-  padding-right: 8px;
+  padding-right: 7px;
 }
 
 p {
@@ -255,5 +255,75 @@ div.incsubtotal {
 
 div.editdel {
   display: flex;
-  gap: 8px;
+  gap: 10px;
+}
+
+table {
+  display: flex;
+  gap: 37px;
+  padding: 15px;
+  font-family: Inter;
+  font-weight: bold;
+  font-size: 11px;
+  color: white;
+}
+
+td {
+  display: flex;
+  flex-direction: row;
+}
+
+td.category {
+  width: 150px;
+}
+
+td.description {
+  width: 250px;
+}
+td.date {
+  width: 80px;
+  font-weight: 100;
+  color: #bebebe;
+}
+td.ammount {
+  color: #5d2f30;
+  width: 80px;
+}
+td.balance {
+  width: 80px;
+}
+div.teditdlt {
+  display: flex;
+  width: 50px;
+  gap: 20px;
+}
+
+p.category {
+  padding-left: 0px;
+}
+
+p.description {
+  padding-left: 70px;
+}
+
+p.date {
+  padding-left: 160px;
+}
+
+p.ammount {
+  padding-left: 20px;
+}
+
+p.balance {
+  padding-left: 0px;
+}
+
+img.icon {
+  width: 14px;
+  height: 14px;
+}
+
+div.icontext {
+  display: flex;
+  gap: 7px;
 }
