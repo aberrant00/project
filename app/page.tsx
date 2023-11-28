@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Home() {
   return (
     <div className="panel">
@@ -6,7 +8,13 @@ export default function Home() {
           <div className="table">
             <div className="tcategory">
               <div className="icontext">
-                <img className="icon" src="food.png" />
+                <Image
+                  alt=""
+                  height="14"
+                  width="14"
+                  className="icon"
+                  src="/food.png"
+                />
                 Food & Drink
               </div>
             </div>
@@ -16,10 +24,22 @@ export default function Home() {
             <div className="ttbalance">3.1456,66 $</div>
             <div className="tteditdlt">
               <div className="tedit">
-                <img className="icon" src="edit.png" />
+                <Image
+                  alt=""
+                  height="14"
+                  width="14"
+                  className="icon"
+                  src="/edit.png"
+                />
               </div>
               <div className="tdelete">
-                <img className="icon" src="delete.png" />
+                <Image
+                  alt=""
+                  height="14"
+                  width="14"
+                  className="icon"
+                  src="/delete.png"
+                />
               </div>
             </div>
           </div>
