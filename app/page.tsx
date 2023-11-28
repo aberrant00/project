@@ -1,6 +1,18 @@
 export default function Home() {
   return (
     <div className="panel">
+      <div className="leftside">
+        <div className="tablebody"></div>
+        <div className="tablehead">
+          <p className="category">Category</p>
+          <p className="description">Description</p>
+          <p className="date">Date</p>
+          <p className="ammount">Ammount</p>
+          <p className="tbalance">Balance</p>
+          <p className="edit">Edit</p>
+          <p className="delete">Delete</p>
+        </div>
+      </div>
       <div className="controls">
         <div className="numbers">
           <div className="balance">
