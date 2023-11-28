@@ -3,26 +3,26 @@ export default function Home() {
     <div className="panel">
       <div className="leftside">
         <div className="tablebody">
-          <div className="table">
-            <div className="tcategory">
+          <table>
+            <td className="category">
               <div className="icontext">
                 <img className="icon" src="food.png" />
                 Food & Drink
               </div>
-            </div>
-            <div className="tdescription">McDonald's</div>
-            <div className="tdate">10/03/2023</div>
-            <div className="tammount">-150,00 $</div>
-            <div className="ttbalance">3.1456,66 $</div>
-            <div className="tteditdlt">
-              <div className="tedit">
+            </td>
+            <td className="description">McDonald's</td>
+            <td className="date">10/03/2023</td>
+            <td className="ammount">-150,00 $</td>
+            <td className="balance">3.1456,66 $</td>
+            <div className="teditdlt">
+              <td className="tedit">
                 <img className="icon" src="edit.png" />
-              </div>
-              <div className="tdelete">
+              </td>
+              <td className="tdelete">
                 <img className="icon" src="delete.png" />
-              </div>
+              </td>
             </div>
-          </div>
+          </table>
         </div>
         <div className="tablehead">
           <p className="category">Category</p>

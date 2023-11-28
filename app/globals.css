@@ -213,6 +213,7 @@ img.imgminus {
 
 div.tablebody {
   display: flex;
+  flex-direction: row;
   background: rgb(0, 0, 0);
   background: linear-gradient(
     330deg,
@@ -258,7 +259,7 @@ div.editdel {
   gap: 10px;
 }
 
-table {
+div.table {
   display: flex;
   gap: 37px;
   padding: 15px;
@@ -273,31 +274,36 @@ td {
   flex-direction: row;
 }
 
-td.category {
+div.tcategory {
   width: 150px;
 }
 
-td.description {
+div.tdescription {
   width: 250px;
 }
-td.date {
+div.tdate {
   width: 80px;
   font-weight: 100;
   color: #bebebe;
 }
-td.ammount {
+div.tammount {
   color: #5d2f30;
   width: 80px;
 }
-td.balance {
+div.ttbalance {
   width: 80px;
 }
-div.teditdlt {
+div.tteditdlt {
   display: flex;
+  flex-direction: row;
   width: 50px;
   gap: 20px;
 }
 
+div.tedit {
+  display: flex;
+  flex-direction: row;
+}
 p.category {
   padding-left: 0px;
 }
