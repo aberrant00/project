@@ -156,6 +156,7 @@ div.plus {
   gap: 10px;
   flex: 1;
   flex-direction: column;
+  box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.3);
   background: rgb(54, 57, 151);
   background: linear-gradient(
     330deg,
@@ -171,6 +172,7 @@ div.minus {
   display: flex;
   flex: 1;
   gap: 10px;
+  box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.3);
   padding: 20px;
   background: rgb(54, 57, 151);
   background: rgb(101, 5, 86);
