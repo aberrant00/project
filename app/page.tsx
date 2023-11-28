@@ -29,7 +29,7 @@ export default function Home() {
               <p className="subtotal">1.322,10 $</p>
             </div>
             <div className="expense">
-              <p className="balance">Expense</p>
+              <p className="balance">Expenses</p>
               <p className="subtotal">1.110,25 $</p>
             </div>
           </div>

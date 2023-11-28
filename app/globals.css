@@ -34,6 +34,7 @@ div.balance {
   );
   border-radius: 15px;
   border: 1px solid #bebebe;
+  box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.6);
   align-items: stretch;
   justify-content: space-between;
 }
@@ -92,7 +93,7 @@ div.income {
   padding-right: 15px;
   padding-left: 15px;
   align-items: flex-end;
-  box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.3);
+  box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.6);
   justify-content: space-between;
   border-radius: 15px;
   gap: 15px;
@@ -105,7 +106,7 @@ div.expense {
   background-color: rgba(176, 82, 82, 0.5);
   align-items: flex-end;
   border-radius: 15px;
-  box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.3);
+  box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.6);
   justify-content: space-between;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -159,7 +160,7 @@ div.plus {
   gap: 10px;
   flex: 1;
   flex-direction: column;
-  box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.3);
+  box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.6);
   background: rgb(54, 57, 151);
   background: linear-gradient(
     330deg,
@@ -175,7 +176,7 @@ div.minus {
   display: flex;
   flex: 1;
   gap: 10px;
-  box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.3);
+  box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.6);
   padding: 20px;
   background: rgb(54, 57, 151);
   background: rgb(101, 5, 86);
