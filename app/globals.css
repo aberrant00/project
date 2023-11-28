@@ -118,8 +118,9 @@ div.expense {
 
 p.subtotal {
   display: flex;
-  flex: 1;
   justify-content: space-between;
+  flex-wrap: nowrap;
+  flex: 1 1;
   font-family: COmfortaa;
   font-size: 20px;
   font-weight: bold;
@@ -231,4 +232,13 @@ p {
   font-family: Inter;
   font-weight: 100;
   font-size: 10px;
+}
+
+div.expsubtotal {
+  display: flex;
+  gap: 5px;
+}
+div.incsubtotal {
+  display: flex;
+  gap: 5px;
 }

@@ -26,11 +26,19 @@ export default function Home() {
           <div className="position">
             <div className="income">
               <p className="balance">Income</p>
-              <p className="subtotal">1.322,10 $</p>
+              <div className="incsubtotal">
+                {" "}
+                <p className="subtotal">1.322,10</p>
+                <p className="subtotal">$</p>
+              </div>
             </div>
             <div className="expense">
               <p className="balance">Expenses</p>
-              <p className="subtotal">1.110,25 $</p>
+              <div className="expsubtotal">
+                {" "}
+                <p className="subtotal">1.110,25</p>
+                <p className="subtotal">$</p>
+              </div>
             </div>
           </div>
         </div>
