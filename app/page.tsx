@@ -87,11 +87,23 @@ export default function Home() {
         </div>
         <div className="buttons">
           <div className="plus">
-            <img className="imgplus" src="plus.png" />
+            <Image
+              alt=""
+              height="15"
+              width="15"
+              className="imgplus"
+              src="/plus.png"
+            />
             <p className="balance">Income</p>
           </div>
           <div className="minus">
-            <img className="imgminus" src="minus.png" />
+            <Image
+              alt=""
+              height="15"
+              width="15"
+              className="imgminus"
+              src="/minus.png"
+            />
             <p className="balance">Expense</p>
           </div>
         </div>
