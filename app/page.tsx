@@ -18,7 +18,7 @@ export default function Home() {
                 Food & Drink
               </div>
             </div>
-            <div className="tdescription">McDonald's</div>
+            <div className="tdescription">McDonalds</div>
             <div className="tdate">10/03/2023</div>
             <div className="tammount">-150,00 $</div>
             <div className="ttbalance">3.1456,66 $</div>
