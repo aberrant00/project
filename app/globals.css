@@ -9,7 +9,7 @@ body {
 
 div.panel {
   display: flex;
-  border-radius: 15px;
+  border-radius: 20px;
   background: rgb(45, 49, 63);
   background: linear-gradient(
     137deg,
@@ -116,6 +116,17 @@ div.expense {
   flex-direction: column;
 }
 
+p.subtotalm {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  flex: 1 1;
+  font-family: COmfortaa;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0px;
+  padding: 0px;
+}
 p.subtotal {
   display: flex;
   justify-content: space-between;
@@ -127,7 +138,6 @@ p.subtotal {
   margin: 0px;
   padding: 0px;
 }
-
 p.dollar {
   font-family: Comfortaa;
   font-size: 32px;
@@ -225,7 +235,7 @@ div.tablehead {
   order: -1;
   gap: 50px;
   padding-left: 20px;
-  padding-right: 20px;
+  padding-right: 8px;
 }
 
 p {
@@ -241,4 +251,9 @@ div.expsubtotal {
 div.incsubtotal {
   display: flex;
   gap: 5px;
+}
+
+div.editdel {
+  display: flex;
+  gap: 8px;
 }

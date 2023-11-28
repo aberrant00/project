@@ -9,8 +9,10 @@ export default function Home() {
           <p className="date">Date</p>
           <p className="ammount">Ammount</p>
           <p className="tbalance">Balance</p>
-          <p className="edit">Edit</p>
-          <p className="delete">Delete</p>
+          <div className="editdel">
+            <p className="edit">Edit</p>
+            <p className="delete">Delete</p>
+          </div>
         </div>
       </div>
       <div className="controls">
@@ -29,7 +31,7 @@ export default function Home() {
               <div className="incsubtotal">
                 {" "}
                 <p className="subtotal">1.322,10</p>
-                <p className="subtotal">$</p>
+                <p className="subtotalm">$</p>
               </div>
             </div>
             <div className="expense">
@@ -37,7 +39,7 @@ export default function Home() {
               <div className="expsubtotal">
                 {" "}
                 <p className="subtotal">1.110,25</p>
-                <p className="subtotal">$</p>
+                <p className="subtotalm">$</p>
               </div>
             </div>
           </div>
