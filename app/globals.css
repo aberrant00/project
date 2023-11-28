@@ -243,6 +243,7 @@ p {
   font-family: Inter;
   font-weight: 100;
   font-size: 10px;
+  color: #bebebe;
 }
 
 div.expsubtotal {
@@ -287,11 +288,14 @@ div.tdate {
   color: #bebebe;
 }
 div.tammount {
+  display: flex;
   color: #5d2f30;
   width: 80px;
+  justify-content: right;
 }
 div.ttbalance {
   width: 80px;
+  justify-content: right;
 }
 div.tteditdlt {
   display: flex;
@@ -305,23 +309,23 @@ div.tedit {
   flex-direction: row;
 }
 p.category {
-  padding-left: 0px;
+  padding-left: 15px;
 }
 
 p.description {
-  padding-left: 70px;
+  padding-left: 66px;
 }
 
 p.date {
-  padding-left: 160px;
+  padding-left: 197px;
 }
 
 p.ammount {
-  padding-left: 20px;
+  padding-left: 54px;
 }
 
-p.balance {
-  padding-left: 0px;
+p.tbalance {
+  padding-left: 7px;
 }
 
 img.icon {
