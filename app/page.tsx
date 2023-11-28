@@ -14,14 +14,12 @@ export default function Home() {
             <td className="date">10/03/2023</td>
             <td className="ammount">-150,00 $</td>
             <td className="balance">3.1456,66 $</td>
-            <div className="teditdlt">
-              <td className="tedit">
-                <img className="icon" src="edit.png" />
-              </td>
-              <td className="tdelete">
-                <img className="icon" src="delete.png" />
-              </td>
-            </div>
+            <td className="tedit">
+              <img className="icon" src="edit.png" />
+            </td>
+            <td className="tdelete">
+              <img className="icon" src="delete.png" />
+            </td>
           </table>
         </div>
         <div className="tablehead">
