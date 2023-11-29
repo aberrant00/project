@@ -8,7 +8,6 @@ body {
 
 div.panel {
   display: flex;
-  flex-wrap: wrap-reverse;
   border-radius: 20px;
   background: rgb(45, 49, 63);
   background: linear-gradient(
@@ -214,7 +213,6 @@ img.imgminus {
 
 div.tablebody {
   display: flex;
-  flex: 0 1;
   flex-direction: row;
   background: rgb(0, 0, 0);
   background: linear-gradient(
@@ -233,6 +231,7 @@ div.leftside {
 
 div.tablehead {
   display: flex;
+  flex: 0 1;
   justify-content: space-between;
   order: -1;
   gap: 50px;
@@ -263,7 +262,6 @@ div.editdel {
 
 div.table {
   display: flex;
-  flex: 1;
   gap: 37px;
   padding: 15px;
   font-family: Inter;
@@ -278,36 +276,31 @@ td {
 }
 
 div.tcategory {
-  flex: 1;
-  width: 190px;
+  width: 150px;
 }
 
 div.tdescription {
-  display: flex;
-  flex: 1;
-  padding-left: 62px;
+  width: 250px;
 }
 div.tdate {
   width: 80px;
-  flex: 1;
   font-weight: 100;
   color: #bebebe;
-  padding-left: 165px;
 }
 div.tammount {
   display: flex;
   color: #5d2f30;
+  width: 80px;
   justify-content: right;
-  padding-left: 15px;
 }
 div.ttbalance {
-  flex: 1;
-  justify-content: center;
-  padding-left: 10px;
+  width: 80px;
+  justify-content: right;
 }
 div.tteditdlt {
   display: flex;
   flex-direction: row;
+  width: 50px;
   gap: 20px;
 }
 
