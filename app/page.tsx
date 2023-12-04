@@ -1,5 +1,10 @@
+"use client";
 import Image from "next/image";
+import Modal from "../components/Modal";
+import { useState } from "react";
+
 export default function Home() {
+  const [showModal, setShowModal] = useState(false);
   return (
     <div className="panel">
       <div className="leftside">
@@ -21,6 +26,7 @@ export default function Home() {
             <div className="tdate">10/03/2023</div>
             <div className="tammount">-150,00 $</div>
             <div className="ttbalance">3.1456,66 $</div>
+
             <div className="tteditdlt">
               <div className="tedit">
                 <Image
@@ -84,8 +90,9 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="buttons">
-          <div className="plus">
+        <div id="modal-root" className="buttons">
+          {showModal && <Modal onClose={() => setShowModal(false)}>helo</Modal>}
+          <div onClick={() => setShowModal(true)} className="plus">
             <Image
               alt=""
               height="15"
@@ -95,7 +102,7 @@ export default function Home() {
             />
             <p className="balance">Income</p>
           </div>
-          <div className="minus">
+          <div onClick={() => setShowModal(true)} className="minus">
             <Image
               alt=""
               height="15"
