@@ -14,8 +14,8 @@ const Modal = ({ onClose, children, title }) => {
 					<a href="#" onClick={handleCloseClick}>
 						x
 					</a>
-					{title && <h1>{title}</h1>}
 					<div className="modal-body">{children}</div>
+					<div className="category">hello</div>
 				</div>
 			</div>
 		</div>

@@ -361,16 +361,6 @@ div.icontext {
   gap: 7px;
 }
 
-.modal {
-  display: flex;
-  background: black;
-  box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.6);
-  height: 100%;
-  width: 100%;
-  border-radius: 15px;
-  padding: 15px;
-}
-
 .modal-overlay {
   position: absolute;
   top: 0;
@@ -380,7 +370,23 @@ div.icontext {
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  background-color: rgba(0, 0, 0, 0.25);
+  background-color: rgba(0, 0, 0, 0.4);
+  padding-top: 100px;
+}
+
+.modal {
+  display: flex;
+  background: rgb(45, 49, 63);
+  background: linear-gradient(
+    137deg,
+    rgba(45, 49, 63, 1) 0%,
+    rgba(20, 20, 20, 1) 100%
+  );
+  box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.6);
+  height: 100%;
+  width: 100%;
+  border-radius: 15px;
+  padding: 15px;
 }
 
 .modal-body {
@@ -391,4 +397,9 @@ div.icontext {
   display: flex;
   justify-content: flex-end;
   font-size: 25px;
+}
+
+div.category {
+  display: flex;
+  background-color: black;
 }
