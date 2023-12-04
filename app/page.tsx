@@ -91,7 +91,11 @@ export default function Home() {
           </div>
         </div>
         <div id="modal-root" className="buttons">
-          {showModal && <Modal onClose={() => setShowModal(false)}>helo</Modal>}
+          {showModal && (
+            <Modal title="" onClose={() => setShowModal(false)}>
+              helo
+            </Modal>
+          )}
           <div onClick={() => setShowModal(true)} className="plus">
             <Image
               alt=""
