@@ -377,7 +377,7 @@ div.icontext {
 .modal {
   display: flex;
   flex-direction: row-reverse;
-  justify-content: space-around;
+  justify-content: space-between;
   background: rgb(45, 49, 63);
   background: linear-gradient(
     137deg,
@@ -386,22 +386,139 @@ div.icontext {
   );
   box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.6);
   height: 100%;
+  gap: 10px;
   width: 100%;
-  border-radius: 15px;
+  border-radius: 20px;
   padding: 10px;
-}
-
-.modal-body {
-  padding-top: 10px;
-}
-
-.modal-header {
-  display: flex;
-  justify-content: flex-end;
-  font-size: 25px;
 }
 
 div.category {
   display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: black;
+  border-radius: 15px;
+  padding: 10px;
+}
+
+div.title {
+  font-family: Inter;
+  font-weight: 60;
+  color: #bebebe;
+  font-size: 11px;
+}
+div.catname {
+  font-family: Inter;
+  font-weight: bold;
+  color: #bebebe;
+  font-size: 14px;
+}
+
+div.iconrow {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+}
+
+div.inputs {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+}
+div.indescription {
+  display: flex;
+  flex: 1 1;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 5px;
+}
+
+p.indesctext {
+  font-size: 11px;
+  padding-left: 10px;
+}
+
+input {
+  display: flex;
+  flex: 1 1;
+  padding: 5px;
+  padding-left: 15px;
+  border-radius: 15px;
+  background-color: #141414;
+  color: #bebebe;
+  border: none;
+}
+
+input:focus {
+  outline: none;
+}
+
+div.lower {
+  display: flex;
+  gap: 10px;
+  flex: 1;
+  flex-direction: row;
+}
+
+div.inbuttons {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: space-between;
+}
+
+div.inplus {
+  display: flex;
+  padding-left: 40px;
+  padding-right: 40px;
+  gap: 10px;
+  flex: 1 1;
+  flex-direction: column;
+  box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.6);
+  background: rgb(54, 57, 151);
+  background: linear-gradient(
+    330deg,
+    rgba(54, 57, 151, 0.5) 0%,
+    rgba(28, 255, 78, 0.5) 100%
+  );
+  border-radius: 15px;
+  justify-content: center;
+  align-items: center;
+}
+
+div.inplus:hover {
+  background-color: rgba(0, 255, 5, 0.22);
+}
+
+div.inplus:active {
+  background-color: black;
+}
+
+div.incancel {
+  display: flex;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding: 10px;
+  height: 10px;
+  gap: 10px;
+  flex-direction: column;
+  box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.6);
+  background: rgb(54, 57, 151);
+  background: linear-gradient(
+    330deg,
+    rgba(54, 57, 151, 0.5) 0%,
+    rgba(28, 255, 78, 0.5) 100%
+  );
+  border-radius: 15px;
+  justify-content: center;
+  align-items: center;
+}
+
+div.incancel:hover {
+  background-color: rgba(0, 255, 5, 0.22);
+}
+
+div.incancel:active {
   background-color: black;
 }
