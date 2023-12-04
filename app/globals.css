@@ -376,6 +376,8 @@ div.icontext {
 
 .modal {
   display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
   background: rgb(45, 49, 63);
   background: linear-gradient(
     137deg,
@@ -386,7 +388,7 @@ div.icontext {
   height: 100%;
   width: 100%;
   border-radius: 15px;
-  padding: 15px;
+  padding: 10px;
 }
 
 .modal-body {

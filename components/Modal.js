@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-const Modal = ({ onClose, children, title }) => {
+const Modal = ({ onClose, title }) => {
 	const handleCloseClick = (e) => {
 		e.preventDefault();
 		onClose();
@@ -11,10 +11,10 @@ const Modal = ({ onClose, children, title }) => {
 		<div className="modal-overlay">
 			<div className="modal-wrapper">
 				<div className="modal">
-					<a href="#" onClick={handleCloseClick}>
+					<div><a href="#" onClick={handleCloseClick}>
 						x
-					</a>
-					<div className="modal-body">{children}</div>
+					</a></div>
+
 					<div className="category">hello</div>
 				</div>
 			</div>
