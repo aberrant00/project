@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import Image from "next/image";
 
-const Modal = ({ onClose, title }) => {
+const ModalMin = ({ onClose, title }) => {
   const handleCloseClick = (e) => {
     e.preventDefault();
     onClose();
@@ -13,16 +13,16 @@ const Modal = ({ onClose, title }) => {
       <div className="modal-wrapper">
         <div className="modal">
           <div className="inbuttons">
-            <div onClick={handleCloseClick} className="inplus">
+            <div href="#" onClick={handleCloseClick} className="inminus">
               <Image
                 alt=""
                 height="15"
                 width="15"
                 className="imgplus"
-                src="/plus.png"
+                src="/minus.png"
               />
             </div>
-            <div onClick={handleCloseClick} className="incancel">
+            <div href="/" onClick={handleCloseClick} className="incancel">
               <p className="balance">Cancel</p>
             </div>
           </div>
@@ -103,4 +103,4 @@ const Modal = ({ onClose, title }) => {
   );
 };
 
-export default Modal;
+export default ModalMin;

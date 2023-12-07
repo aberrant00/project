@@ -1,10 +1,12 @@
 "use client";
 import Image from "next/image";
 import Modal from "../components/Modal";
+import ModalMin from "../components/ModalMin";
 import { useState } from "react";
 
 export default function Home() {
   const [showModal, setShowModal] = useState(false);
+  const [showModalMin, setShowModalMin] = useState(false);
   return (
     <div className="panel">
       <div className="leftside">
@@ -94,6 +96,12 @@ export default function Home() {
           {showModal && (
             <Modal title="" onClose={() => setShowModal(false)}></Modal>
           )}
+          {showModalMin && (
+            <ModalMin
+              title=""
+              onClose={() => setShowModalMin(false)}
+            ></ModalMin>
+          )}
           <div onClick={() => setShowModal(true)} className="plus">
             <Image
               alt=""
@@ -104,7 +112,7 @@ export default function Home() {
             />
             <p className="balance">Income</p>
           </div>
-          <div onClick={() => setShowModal(true)} className="minus">
+          <div onClick={() => setShowModalMin(true)} className="minus">
             <Image
               alt=""
               height="15"
